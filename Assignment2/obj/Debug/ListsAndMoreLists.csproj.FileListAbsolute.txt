@@ -1,0 +1,5 @@
+c:\users\uw182c\documents\visual studio 2015\Projects\ListsAndMoreLists\obj\Debug\ListsAndMoreLists.csprojResolveAssemblyReference.cache
+c:\users\uw182c\documents\visual studio 2015\Projects\ListsAndMoreLists\bin\Debug\ListsAndMoreLists.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\ListsAndMoreLists\bin\Debug\ListsAndMoreLists.pdb
+c:\users\uw182c\documents\visual studio 2015\Projects\ListsAndMoreLists\obj\Debug\ListsAndMoreLists.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\ListsAndMoreLists\obj\Debug\ListsAndMoreLists.pdb
