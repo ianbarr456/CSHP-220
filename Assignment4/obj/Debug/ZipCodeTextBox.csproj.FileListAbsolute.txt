@@ -1,0 +1,13 @@
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\bin\Debug\ZipCodeTextBox.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\bin\Debug\ZipCodeTextBox.pdb
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox.csprojResolveAssemblyReference.cache
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\MainWindow.g.cs
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\App.g.cs
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox_MarkupCompile.cache
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox_MarkupCompile.lref
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\MainWindow.baml
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox.g.resources
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox.Properties.Resources.resources
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox.csproj.GenerateResource.Cache
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\ZipCodeTextBox\obj\Debug\ZipCodeTextBox.pdb
