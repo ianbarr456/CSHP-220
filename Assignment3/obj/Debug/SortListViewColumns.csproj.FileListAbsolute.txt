@@ -1,0 +1,13 @@
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\bin\Debug\SortListViewColumns.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\bin\Debug\SortListViewColumns.pdb
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\MainWindow.g.cs
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\App.g.cs
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns_MarkupCompile.cache
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns_MarkupCompile.lref
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\MainWindow.baml
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns.g.resources
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns.Properties.Resources.resources
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns.csproj.GenerateResource.Cache
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns.pdb
+c:\users\uw182c\documents\visual studio 2015\Projects\SortListViewColumns\obj\Debug\SortListViewColumns.csprojResolveAssemblyReference.cache

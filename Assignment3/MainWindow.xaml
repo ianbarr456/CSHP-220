@@ -1,0 +1,32 @@
+﻿<Window x:Class="SortListViewColumns.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SortListViewColumns"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ListView x:Name="uxList">
+            <ListView.Resources>
+                <Style TargetType="{x:Type GridViewColumnHeader}">
+                    <Setter Property="HorizontalContentAlignment" Value="Left" />
+                </Style>
+            </ListView.Resources>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="60" DisplayMemberBinding="{Binding Name}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Name" Click="uxListColumnHeader_Click">Name</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn Width="80" DisplayMemberBinding="{Binding Password}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Password" Click="uxListColumnHeader_Click">Password</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
