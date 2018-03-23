@@ -1,0 +1,13 @@
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\MainWindow.g.cs
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\App.g.cs
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2_MarkupCompile.cache
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2_MarkupCompile.lref
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2.csprojResolveAssemblyReference.cache
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\bin\Debug\Tic-Tac-Toe2.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\bin\Debug\Tic-Tac-Toe2.pdb
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\MainWindow.baml
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2.g.resources
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic_Tac_Toe2.Properties.Resources.resources
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2.csproj.GenerateResource.Cache
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2.exe
+c:\users\uw182c\documents\visual studio 2015\Projects\Tic-Tac-Toe2\obj\Debug\Tic-Tac-Toe2.pdb
