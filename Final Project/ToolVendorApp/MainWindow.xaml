@@ -1,0 +1,109 @@
+﻿<Window x:Class="ToolVendorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToolVendorApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="1215">
+
+    <StackPanel Orientation="Vertical">
+        <Menu>
+            <MenuItem Header="_File">
+                <MenuItem x:Name="uxFileNew" Header="_New" Click="uxFileNew_Click" />
+                <MenuItem x:Name="uxFileChange" Header="_Modify" Click="uxFileChange_Click" Loaded="uxFileChange_Loaded" />
+                <MenuItem x:Name="uxFileDelete" Header="_Delete" Click="uxFileDelete_Click" Loaded="uxFileDelete_Loaded" />
+            </MenuItem>
+        </Menu>
+        <ListView x:Name="uxToolVendorList" Height="200" SelectionChanged="uxToolVendorList_SelectionChanged" MouseDoubleClick="uxToolVendorList_MouseDoubleClick">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="40" DisplayMemberBinding="{Binding Type}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Type" Click="GridViewColumnHeader_Click" Width="40">Type</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="60" DisplayMemberBinding="{Binding Quantity}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Quantity" Click="GridViewColumnHeader_Click" Width="60">Quantity</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Designator}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Designator" Click="GridViewColumnHeader_Click" Width="100">Designator</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Manufacturer}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Manufacturer" Click="GridViewColumnHeader_Click" Width="100">Manufacturer</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Diameter}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Diameter" Click="GridViewColumnHeader_Click" Width="100">Diameter</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding FluteLength}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Flute Length" Click="GridViewColumnHeader_Click" Width="100">Flute Length</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding FluteNumber}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Flute Number" Click="GridViewColumnHeader_Click" Width="100">Flute Number</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding CornerType}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="CornerType" Click="GridViewColumnHeader_Click" Width="100">Corner Type</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Material}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Material" Click="GridViewColumnHeader_Click" Width="100">Material</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="50" DisplayMemberBinding="{Binding Rake, StringFormat={}{0}°}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Rake" Click="GridViewColumnHeader_Click" Width="60">Rake</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Link}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Link" Click="GridViewColumnHeader_Click" Width="100">Link</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding Notes}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Notes" Click="GridViewColumnHeader_Click" Width="100">Notes</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="100" DisplayMemberBinding="{Binding StockedDate}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Tag="Stocked Date" Click="GridViewColumnHeader_Click" Width="100">Stocked Date</GridViewColumnHeader>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="uxContextFileNew" Header="_New" Click="uxFileNew_Click"/>
+                    <MenuItem x:Name="uxContextFileChange" Header="_Modify" Click="uxFileChange_Click" Loaded="uxFileChange_Loaded" />
+                    <MenuItem x:Name="uxContextFileDelete" Header="_Delete" Click="uxFileDelete_Click" Loaded="uxFileDelete_Loaded" />
+                </ContextMenu>
+            </ListView.ContextMenu>
+        </ListView>
+    </StackPanel>
+</Window>

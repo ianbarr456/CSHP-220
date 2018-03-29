@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ToolsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Tool">
+          <Key>
+            <PropertyRef Name="ToolInternalId" />
+          </Key>
+          <Property Name="ToolInternalId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ToolType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ToolQuantity" Type="int" Nullable="false" />
+          <Property Name="ToolDesignator" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ToolManufacturer" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ToolDiameter" Type="float" Nullable="false" />
+          <Property Name="ToolFluteLength" Type="float" Nullable="false" />
+          <Property Name="ToolFluteNumber" Type="int" Nullable="false" />
+          <Property Name="ToolCornerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ToolMaterial" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ToolRake" Type="int" />
+          <Property Name="ToolLink" Type="nvarchar" MaxLength="1000" />
+          <Property Name="ToolNotes" Type="nvarchar" MaxLength="1000" />
+          <Property Name="ToolStockedDate" Type="datetime" Nullable="false" />
+          <Property Name="ToolImage" Type="image" />
+        </EntityType>
+        <EntityContainer Name="ToolsModelStoreContainer">
+          <EntitySet Name="Tool" EntityType="Self.Tool" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ToolsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Tool">
+          <Key>
+            <PropertyRef Name="ToolInternalId" />
+          </Key>
+          <Property Name="ToolInternalId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ToolType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ToolQuantity" Type="Int32" Nullable="false" />
+          <Property Name="ToolDesignator" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ToolManufacturer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ToolDiameter" Type="Double" Nullable="false" />
+          <Property Name="ToolFluteLength" Type="Double" Nullable="false" />
+          <Property Name="ToolFluteNumber" Type="Int32" Nullable="false" />
+          <Property Name="ToolCornerType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ToolMaterial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ToolRake" Type="Int32" Nullable="true" />
+          <Property Name="ToolNotes" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="ToolStockedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ToolLink" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="ToolImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityContainer Name="ToolsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Tools" EntityType="Self.Tool" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ToolsModelStoreContainer" CdmEntityContainer="ToolsEntities">
+          <EntitySetMapping Name="Tools">
+            <EntityTypeMapping TypeName="ToolsModel.Tool">
+              <MappingFragment StoreEntitySet="Tool">
+                <ScalarProperty Name="ToolImage" ColumnName="ToolImage" />
+                <ScalarProperty Name="ToolRake" ColumnName="ToolRake" />
+                <ScalarProperty Name="ToolLink" ColumnName="ToolLink" />
+                <ScalarProperty Name="ToolInternalId" ColumnName="ToolInternalId" />
+                <ScalarProperty Name="ToolType" ColumnName="ToolType" />
+                <ScalarProperty Name="ToolQuantity" ColumnName="ToolQuantity" />
+                <ScalarProperty Name="ToolDesignator" ColumnName="ToolDesignator" />
+                <ScalarProperty Name="ToolManufacturer" ColumnName="ToolManufacturer" />
+                <ScalarProperty Name="ToolDiameter" ColumnName="ToolDiameter" />
+                <ScalarProperty Name="ToolFluteLength" ColumnName="ToolFluteLength" />
+                <ScalarProperty Name="ToolFluteNumber" ColumnName="ToolFluteNumber" />
+                <ScalarProperty Name="ToolCornerType" ColumnName="ToolCornerType" />
+                <ScalarProperty Name="ToolMaterial" ColumnName="ToolMaterial" />
+                <ScalarProperty Name="ToolNotes" ColumnName="ToolNotes" />
+                <ScalarProperty Name="ToolStockedDate" ColumnName="ToolStockedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,5 @@
+C:\Users\uw182c\documents\visual studio 2015\Projects\ToolVendorApp\ToolVendorApp\bin\Debug\ToolVendorApp.exe
+C:\Users\uw182c\documents\visual studio 2015\Projects\ToolVendorApp\ToolVendorApp\bin\Debug\EntityFramework.dll
+C:\Users\uw182c\documents\visual studio 2015\Projects\ToolVendorApp\ToolVendorApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\uw182c\documents\visual studio 2015\Projects\ToolVendorApp\ToolVendorApp\bin\Debug\ToolVendorRepository.dll
+C:\Users\uw182c\documents\visual studio 2015\Projects\ToolVendorApp\ToolVendorApp\bin\Debug\ToolVendorDB.dll
